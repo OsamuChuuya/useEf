@@ -7,7 +7,7 @@ import Footer from './Footer'
 const Main = () => {
   const [search, setSearch]=useState('')
   return (
-    <div className='w-[1440px] mx-auto bg-white h-[2037px] bg-gradient-to-r from-[#984D38] to-[#181E41] '>
+    <div className='w-[1440px]  bg-white h-[2037px] bg-gradient-to-r from-[#984D38] to-[#181E41] '>
         <Nav search={search} setSearch={setSearch}/>
         <div className='flex'>
           <Drawer/>
